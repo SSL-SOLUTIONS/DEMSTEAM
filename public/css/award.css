@@ -1,0 +1,105 @@
+.awards-in h6 {
+    font-family: DM Sans, sans-serif;
+    opacity: 1;
+    color: rgb(95, 169, 218);
+    letter-spacing: 7px;
+    line-height: 21px;
+    font-weight: 700;
+    font-size: .875rem;
+}
+
+.awards-in h1 {
+    font-family: Lato, sans-serif;
+    opacity: 1;
+    color: rgb(24, 30, 78);
+    line-height: 72px;
+    font-weight: 800;
+    font-size: 56px;
+}
+
+.awards-in h5 {
+    font-family: DM Sans, sans-serif;
+    opacity: 1;
+    line-height: 2.25rem;
+    font-size: 26px;
+}
+
+.awards-in button {
+    background-color: rgb(255, 193, 69);
+    outline: 0;
+    border: 0;
+    color: black;
+    font-family: Lato, sans-serif !important;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.awards-in button:hover {
+    background-color: rgb(243, 174, 36);
+}
+
+.cards-cover {
+    background-image: url(https://images.ctfassets.net/bete4dit0n31/4hDftsEuOmW61owcyYn0EI/762b61d6ce7d6dd00fecbcfef6cceac1/Mask_Group.webp);
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    outline: 1px solid rgba(128, 128, 128, 0.2);
+    cursor: pointer;
+}
+
+.cards-cover h5 {
+    color: rgb(250, 204, 21);
+}
+
+.cards-cover h2 {
+    color: rgb(24, 30, 78);
+}
+
+.cards-cover h6 {
+    color: rgb(24, 30, 78);
+}
+
+.cards-cover p {
+    color: grey;
+}
+
+.cards-cover:hover {
+    transition: 0.3s;
+    background-color: rgb(24, 30, 78);
+}
+
+.cards-cover:hover h5 {
+    color: white;
+}
+
+.cards-cover:hover h2 {
+    color: white;
+}
+
+.cards-cover:hover h6 {
+    color: white;
+}
+
+.cards-cover:hover p {
+    color: rgb(250, 204, 21);
+}
+
+.sale-sec-heading h3 {
+    font-size: 1.875rem;
+    font-weight: 900;
+    font-family: Lato, sans-serif !important;
+    opacity: 1;
+    line-height: 41px;
+}
+
+.sale-sec-text p {
+    font-family: DM Sans, sans-serif;
+    opacity: 1;
+    letter-spacing: .1em;
+    line-height: 21px;
+    color: rgb(0, 102, 186);
+    font-weight: 700;
+    font-size: .875rem;
+}

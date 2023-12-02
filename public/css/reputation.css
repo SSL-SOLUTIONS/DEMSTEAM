@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+@media only screen and (max-width: 991px) {
+    .landing-text-area button {
+        left: 0px;
+    }
+}
+
+.services-in {
+    background-color: rgb(24, 30, 78);
+    padding: 50px 0px;
+}
+
+.services-left h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.services-left p {
+    font-size: 0.9rem;
+}
+
+.services-left .letter {
+    margin-top: 300px;
+}
+
+.services-right button {
+    padding: 15px 18px;
+    background-color: rgb(255, 193, 69);
+    outline: 0;
+    border: 0;
+    caret-color: white;
+    padding-left: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.services-right button:hover {
+    background-color: rgb(243, 174, 36);
+}
+
+.services-right h6 {
+    font-size: 0.9rem;
+}
+
+.services-links-row {
+    padding-bottom: 200px;
+}
+
+.services-links-row span {
+    color: rgb(255, 193, 69);
+}
+
+.services-links-row a {
+    text-decoration: none;
+    color: white;
+    margin-top: 18px;
+}
+
+@media only screen and (max-width: 991px) {
+    .services-links-row {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+}
+
+.button {
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    color: gray;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+
+.button.active {
+    color: rgb(0, 102, 186);
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.left-section h6 {
+    color: purple;
+}
+
+.left-section h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.left-section p {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.margin-text {
+    margin-left: 300px;
+}
+
+.set-text p {
+    font-size: 0.8rem;
+}
+
+.number-sec h2 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2.7rem;
+}
+
+.number-sec p {
+    font-size: 0.8rem;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+.cards-cover {
+    background-image: url(https://images.ctfassets.net/bete4dit0n31/4hDftsEuOmW61owcyYn0EI/762b61d6ce7d6dd00fecbcfef6cceac1/Mask_Group.webp);
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cards-cover h5 {
+    color: rgb(24, 30, 78);
+}
+
+.cards-cover h2 {
+    color: rgb(24, 30, 78);
+}
+
+.cards-cover h6 {
+    color: rgb(24, 30, 78);
+}
+
+.cards-cover p {
+    color: grey;
+}
+
+.cards-cover:hover {
+    background-color: rgb(24, 30, 78);
+}
+
+.cards-cover:hover h5 {
+    color: white;
+}
+
+.cards-cover:hover h2 {
+    color: white;
+}
+
+.cards-cover:hover h6 {
+    color: white;
+}
+
+.cards-cover:hover p {
+    color: rgb(250, 204, 21);
+}
+
+
+/* --------------------------------MINE   ONE  ------------------------*/
+.social-link {
+    transition: background-color 0.5s, color 1s;
+
+}
+
+.social-icon {
+    font-size: 18px;
+}
+
+
+.social-link:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.horizontal-line {
+    border-top: 0.01px solid rgb(133, 130, 130);
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.animation-line {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(175, 32, 34);
+    transition: width 0.3s;
+}
+
+
+
+
+/* ---------------FOOTER SECTION -------------- */
+#SOCIAL-ICONS a {
+    font-size: 18PX;
+    color: blue;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+
+.link-light {
+    color: black;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* #BOOK {
+    padding: 8PX 30PX;
+    color: black;
+    font-size: 15PX;
+    border-radius: 4PX;
+    background-color: rgb(252, 194, 71);
+} */

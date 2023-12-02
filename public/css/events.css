@@ -1,0 +1,63 @@
+.events-in h6 {
+    font-family: DM Sans, sans-serif;
+    opacity: 1;
+    color: rgb(95, 169, 218);
+    letter-spacing: 7px;
+    line-height: 21px;
+    font-weight: 700;
+    font-size: .875rem;
+}
+
+.events-in h1 {
+    font-family: Lato, sans-serif;
+    opacity: 1;
+    color: rgb(24, 30, 78);
+    line-height: 72px;
+    font-weight: 800;
+    font-size: 56px;
+}
+
+.events-in h5 {
+    font-family: DM Sans, sans-serif;
+    opacity: 1;
+    line-height: 2.25rem;
+    font-size: 26px;
+}
+
+.events-in button {
+    background-color: rgb(255, 193, 69);
+    outline: 0;
+    border: 0;
+    color: black;
+    font-family: Lato, sans-serif !important;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.events-in button:hover {
+    background-color: rgb(243, 174, 36);
+}
+
+.events-news-in p {
+    font-size: 1.125rem;
+    line-height: 1.17rem;
+}
+
+
+.sale-sec-heading h3 {
+    font-size: 1.875rem;
+    font-weight: 900;
+    font-family: Lato, sans-serif !important;
+    opacity: 1;
+    line-height: 41px;
+}
+
+.sale-sec-text p {
+    font-family: DM Sans, sans-serif;
+    opacity: 1;
+    letter-spacing: .1em;
+    line-height: 21px;
+    color: rgb(0, 102, 186);
+    font-weight: 700;
+    font-size: .875rem;
+}

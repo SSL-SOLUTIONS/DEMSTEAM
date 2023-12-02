@@ -1,0 +1,373 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+/* 
+.top-nav {
+    background-color: rgb(24, 30, 78);
+    padding: 12px 0px;
+}
+
+.top-nav-2 button {
+    outline: 0;
+    padding: 10px 25px;
+    background-color: rgb(24, 30, 78);
+    color: rgb(255, 190, 71);
+    border: 1px solid rgb(255, 190, 71);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.top-nav-2 a {
+    text-decoration: none;
+    color: white;
+} */
+
+.landing-rep {
+    background-color: #3170b5;
+    padding-top: 85px;
+    padding-bottom: 0px;
+}
+
+.rep-left h1 {
+    color: #181e4e;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.rep-left h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 3.8rem;
+}
+
+.rep-left h5 {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.form-row {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.rep-right h1 {
+    color: rgb(24, 30, 78);
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: Lato, sans-serif !important;
+}
+
+.rep-right h5 {
+    color: grey;
+    font-family: Lato, sans-serif !important;
+
+}
+
+.form-set {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+    border-bottom: 1px solid black !important;
+    color: rgb(128, 128, 128) !important;
+    font-family: Lato, sans-serif !important;
+    font-size: 1.1rem;
+}
+
+.form-set option {
+    color: rgb(128, 128, 128) !important;
+    font-family: Lato, sans-serif !important;
+    font-size: 1.1rem;
+}
+
+.form-row button {
+    background-color: #181e4e;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-family: Lato, sans-serif !important;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid #181e4e;
+    transition: 0.3s;
+
+}
+
+.form-row button:hover {
+    background-color: #242b5f;
+    border: 1px solid #3170b5;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 123);
+}
+
+@media only screen and (max-width: 991px) {
+    .rep-left h1 {
+        font-size: 2.6rem;
+    }
+
+    .rep-left h2 {
+        font-size: 2.9rem;
+    }
+
+    .rep-left {
+        text-align: center;
+    }
+
+    .landing-rep {
+        padding-top: 40px;
+        padding-bottom: 15px;
+
+    }
+}
+
+.brands-heading {
+    background-color: rgb(249, 249, 255);
+}
+
+.brands-heading h4 {
+    font-family: DM Sans, sans-serif !important;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(24, 30, 78);
+}
+
+.b-cards {
+    background-color: rgb(255, 255, 255);
+    outline: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.card-section {
+    background-color: rgb(249, 249, 255);
+}
+
+.b-cards-heading {
+    font-family: Lato, sans-serif !important;
+    color: rgb(27, 29, 40);
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem
+}
+
+.b-cards-text {
+    font-family: DM Sans, sans-serif !important;
+    font-size: .75rem;
+    line-height: 1rem;
+    color: rgb(27, 29, 40);
+    opacity: 1;
+}
+
+@media only screen and (max-width: 991px) {
+    .b-cards {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .brands-heading h4 {
+        text-align: center;
+    }
+
+}
+
+.mega-1 {
+    background-image: url(https://images.ctfassets.net/bete4dit0n31/mOPASo9SiOXwtx5CVMO3r/401d64575ac1c2a4f8cee46feb8dc238/serive-1.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.mega-1 h1 {
+    font-family: Lato, sans-serif !important;
+    font-size: 56px;
+    font-weight: 800;
+    color: white;
+}
+
+.mega-1 h3 {
+    font-family: Lato, sans-serif !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    color: white;
+}
+
+.mega-1 p {
+    font-family: Lato, sans-serif !important;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.25rem;
+    color: white;
+}
+
+.mega-1-area {
+    border-left: 4px solid white;
+    margin-left: 50px;
+}
+
+.mega-1-area button {
+    background-color: #181e4e;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-family: Lato, sans-serif !important;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.mega-1-area button:hover {
+    background-color: #242b5f;
+    border: 1px solid #3170b5;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 123);
+}
+
+@media only screen and (max-width: 991px) {
+    .mega-1-area {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mega-1 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.mega-2 h1 {
+    font-family: Lato, sans-serif !important;
+    font-size: 56px;
+    font-weight: 800;
+    color: black;
+}
+
+.mega-2 h3 {
+    font-family: Lato, sans-serif !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    color: rgb(55, 65, 81)
+}
+
+.mega-2 p {
+    font-family: Lato, sans-serif !important;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.25rem;
+    color: black;
+}
+
+.mega-2-area button {
+    background-color: #181e4e;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-family: Lato, sans-serif !important;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.mega-2-area button:hover {
+    background-color: #242b5f;
+    border: 1px solid #3170b5;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 123);
+}
+
+@media only screen and (max-width: 991px) {
+    .mega-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mega-2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.mega-last {
+    background-image: url(https://images.ctfassets.net/bete4dit0n31/110wbdtYVsuyKjzu7Zs2xV/30967814865a53d13f1d724707d453c0/service-5.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.mega-last {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mega-last h1 {
+    font-family: Lato, sans-serif !important;
+    font-size: 56px;
+    font-weight: 800;
+    color: white;
+}
+
+.mega-last h3 {
+    font-family: Lato, sans-serif !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    color: white;
+}
+
+.mega-last p {
+    font-family: Lato, sans-serif !important;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.25rem;
+    color: white;
+}
+
+.mega-last-area {
+    border-left: 4px solid white;
+    margin-left: 50px;
+}
+
+.mega-last-area button {
+    background-color: #181e4e;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-family: Lato, sans-serif !important;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.mega-last-area button:hover {
+    background-color: #242b5f;
+    border: 1px solid #3170b5;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 123);
+}
+
+@media only screen and (max-width: 991px) {
+    .mega-last-area {
+        margin-left: 30px;
+    }
+
+    .mega-last {
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mega-last {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}

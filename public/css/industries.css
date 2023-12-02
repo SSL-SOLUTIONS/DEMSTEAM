@@ -1,0 +1,412 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.luxury-top-main {
+    background-color: rgb(250, 250, 250);
+}
+
+.luxury-in-1 {
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: white;
+    border-top: 1px solid rgba(128, 128, 128, 0.4);
+    border-right: 1px solid rgba(128, 128, 128, 0.4);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.lux-heading {
+    border-top-right-radius: 18px;
+    background-color: rgb(24, 30, 78);
+}
+
+.luxury-in-1 a {
+    padding-left: 35px;
+    color: black;
+    text-decoration: none;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.luxury-in-1 h6 {
+    padding-left: 35px;
+    color: white;
+    line-height: 20px;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.lux-spacing-class {
+    padding: 25px 0px;
+}
+
+.hov-item:hover {
+    cursor: pointer;
+    background-color: rgb(238, 240, 249);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.luxury-in-2 h6 {
+    font-size: .875rem;
+    letter-spacing: .1em;
+    line-height: 1.25;
+    font-weight: 700;
+    color: rgb(0, 102, 186);
+    opacity: 1;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.luxury-in-2 h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: rgb(24, 30, 78);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.luxury-in-2 h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(24, 30, 78);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.luxury-in-2 p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: black;
+    padding-right: 50px;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.luxury-in-3 {
+    border-left: 4px solid rgb(180, 186, 229);
+    box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.499)
+}
+
+.f-r-1 h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2;
+    opacity: 1;
+    color: rgb(24, 30, 78);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.f-r-1 span {
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    opacity: 1;
+    color: rgb(107, 114, 128);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.luxury-in-3 label {
+    font-weight: 500;
+    line-height: 1.25rem;
+    font-size: 1.125rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.luxury-in-3 input {
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.luxury-in-3 ::placeholder {
+    color: rgba(128, 128, 128, 0.6);
+}
+
+.luxury-in-3 select {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    background-color: rgb(250, 250, 250);
+    font-family: Lato, sans-serif;
+    opacity: 1;
+    line-height: 22px;
+    font-size: 1.125rem;
+}
+
+.f-r-5 button {
+    background-color: #181e4e;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-family: Lato, sans-serif !important;
+    font-size: 1rem;
+    font-weight: 800;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.f-r-5 button:hover {
+    background-color: #242b5f;
+    border: 1px solid #3170b5;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 123);
+}
+
+@media only screen and (max-width: 1300px) {
+    .luxury-in-2 h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1055px) {
+    .luxury-in-2 h1 {
+        font-size: 2.7rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .responsive-item {
+        padding-top: 20px !important;
+    }
+
+    .f-r-3 {
+        padding-bottom: 15px !important;
+    }
+
+    .curved-last {
+        border-bottom-right-radius: 18px !important;
+    }
+
+    .luxury-in-1 {
+        border: 0;
+    }
+
+}
+
+.line-blue {
+    border-top: 6px solid rgb(0, 102, 186);
+    margin-top: 85px;
+}
+
+.agency-text-wrap {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.agency-text-wrap p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: white;
+    opacity: 1;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.agency-text-wrap button {
+    background-color: rgb(255, 193, 69);
+    outline: 0;
+    border: 0;
+    color: black;
+    font-family: Lato, sans-serif !important;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.agency-text-wrap button:hover {
+    background-color: rgb(243, 174, 36);
+}
+
+.mega-2 {
+    background-image: url(https://www.digitalmarketingagency.com/static/images/bgWave.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 150px;
+}
+
+.mega-2 h6 {
+    font-family: DM Sans, sans-serif;
+    opacity: 1;
+    line-height: 2;
+    font-size: 1rem;
+    color: rgb(0, 102, 186);
+}
+
+.mega-2 h3 {
+    font-family: Lato, sans-serif !important;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 52px;
+    color: rgb(24, 30, 78);
+    opacity: 1;
+}
+
+.mega-2 p {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: black;
+    opacity: 1;
+}
+
+.mega-2-area button {
+    background-color: #181e4e;
+    outline: 0;
+    border: 0;
+    color: white;
+    font-family: DM Sans, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 6px 35px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.mega-2-area {
+    margin-left: 23px;
+}
+
+#communities {
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+#communities:hover {
+    background-color: #242b5f;
+    border: 1px solid #3170b5;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 123);
+}
+
+@media only screen and (max-width: 991px) {
+    .mega-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mega-2-area {
+        margin-left: 0px;
+    }
+}
+
+.mega-1 {
+    background-image: url(https://images.ctfassets.net/bete4dit0n31/2VdVTmNjwTtfWXE1iWYjWh/d1fe7d2fb72f8450f23c846d418c909f/industry-3.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.mega-1 h1 {
+    font-family: Lato, sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 48px;
+    color: white;
+    opacity: 1;
+}
+
+.mega-1 h3 {
+    font-family: Lato, sans-serif !important;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.625;
+    color: white;
+    opacity: 1;
+}
+
+.mega-1 p {
+    font-family: DM Sans, sans-serif;
+    font-weight: 400;
+    opacity: 1;
+    line-height: 34px;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.mega-1-area {
+    border-left: 4px solid white;
+    margin-left: 50px;
+}
+
+.mega-1-area a {
+    font-family: DM Sans, sans-serif;
+    color: rgb(26, 146, 245);
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .mega-1-area {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mega-1 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.sale-sec-heading h3 {
+    font-size: 1.875rem;
+    font-weight: 900;
+    font-family: Lato, sans-serif !important;
+    opacity: 1;
+    line-height: 41px;
+}
+
+.meeting-main {
+    background-color: rgb(24, 30, 70);
+}
+
+.meeting-left h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+    font-family: Lato, sans-serif !important;
+    opacity: 1;
+    font-weight: 900;
+    color: white;
+}
+
+.meeting-left h5 {
+    font-size: 1.25rem;
+    line-height: 2;
+    font-family: DM Sans, sans-serif !important;
+    opacity: 1;
+    font-weight: 400;
+    color: white;
+}
+
+.meeting-left span {
+    color: rgb(255, 193, 69);
+}
+
+.meeting-left button {
+    background-color: rgb(255, 193, 69);
+    outline: 0;
+    border: 0;
+    color: black;
+    font-size: 15px;
+    font-family: DM Sans, sans-serif !important;
+    font-weight: 700;
+    padding: 15px 40px;
+}
+
+.meeting-left button:hover {
+    background-color: rgb(243, 174, 36);
+}
+
+.sale-sec-text {
+    border-top: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.line-btm {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
