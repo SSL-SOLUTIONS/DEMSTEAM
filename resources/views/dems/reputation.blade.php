@@ -213,8 +213,7 @@
                 <button class="col-lg-auto col-11 ms-4 px-5 py-3">START NOW</button>
             </div>
         </div>
-
-
+        
     </div>
 
     <!-- Container-Fluid-End -->
@@ -244,7 +243,6 @@
             </div>
         </div>
     </div>
-
 
 
     <!-- FOOTER -->

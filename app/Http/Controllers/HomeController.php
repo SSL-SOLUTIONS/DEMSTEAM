@@ -71,4 +71,8 @@ class HomeController extends Controller
     {
         return view('dems.others');
     }
+    public function blog()
+    {
+        return view('dems.blogs');
+    }
 }

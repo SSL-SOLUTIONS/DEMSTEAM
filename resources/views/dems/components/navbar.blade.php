@@ -8,8 +8,10 @@
     <div class="col-md-5 col-6 d-flex align-items-center justify-content-end top-nav-2">
         <a class="me-5 d-none col-auto d-lg-block" href="">
             <i class="bi bi-telephone-fill"></i>
-            &nbsp;+92 328 9903939
+            &nbsp;+92 (312) 4700-804
         </a>
-        <button class="col-auto">REQUEST A FREE QUOTE</button>
+        <button class="col-auto">
+            REQUEST A FREE QUOTE
+        </button>
     </div>
 </div>

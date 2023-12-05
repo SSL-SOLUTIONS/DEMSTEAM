@@ -146,9 +146,12 @@
                 <div class="mt-3">
                     <input type="text" placeholder="Enter your Email">
                 </div>
-                <div>.</div>
-                <span style="padding: 3px 15px; background-color: black; color: white;">Sign
-                    Up</span>
+                <div>.
+
+                </div>
+                <button id="sign-up-footer">
+                    Sign Up
+                </button>
                 <div class="mt-2"></div>
 
             </div>
@@ -164,7 +167,7 @@
                     &nbsp;Need Help? Say Hello
                 </span>
                 <span style="font-size: 3rem;line-height: 1;font-family: Montserrat,sans-serif; font-weight: 600;">
-                    +92 326 9908483
+                    +92 (312) 4700-804
                 </span>
             </div>
             <div class="col-lg-4 text-start">
@@ -178,7 +181,7 @@
                     <span style="font-size: 20px;">
                         <i class="bi bi-envelope"></i>
                     </span>
-                    sales@digitalmarketingagency.com
+                    contact@demsteam.com
                 </div>
             </div>
 

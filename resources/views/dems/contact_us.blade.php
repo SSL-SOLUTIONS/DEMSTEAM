@@ -39,16 +39,24 @@
                     <p id="SUB-PARA">Our digital marketing team is always ready to help. Give us a call, send us an email, or fill out the form below.</p>
                     <h2><i class="bi bi-geo-alt-fill"></i> &nbsp;OFFICE ADDRESS </h2>
                     <p>Jail Road, Lahore</p>
-                    <h2><i class="bi bi-telephone"></i> &nbsp;PHONE NUMBER </h2>
-                    <p>+1-800-569-2754</p>
-                    <h2><i class="bi bi-envelope"></i> &nbsp;EMAIL US </h2>
-                    <p>sales@digitalmarketingagency.com</p>
-
+                    <h2>
+                        <i class="bi bi-telephone"></i> &nbsp;PHONE NUMBER
+                    </h2>
+                    <p>
+                        +1-800-569-2754
+                    </p>
+                    <h2>
+                        <i class="bi bi-envelope"></i>
+                        &nbsp;EMAIL US
+                    </h2>
+                    <p>
+                        sales@digitalmarketingagency.com
+                    </p>
                 </div>
 
             </div>
 
-            <div class="col-md-5 col-11 luxury-in-3 d-flex align-items-center justify-content-center mt-3">
+            <div class="col-md-5 col-11 luxury-in-3 d-flex align-items-center justify-content-center mt-3" style="background-color: #fff; border-left:5px solid #181e4e">
 
                 <!-- Form-Main-Row -->
                 <div class="row col-12 mb-5">

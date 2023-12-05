@@ -306,6 +306,23 @@
     color: black;
 }
 
+#sign-up-footer {
+    padding: 5px 15px;
+    background-color: #181e4e;
+    outline: 0;
+    caret-color: white;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+#sign-up-footer:hover {
+    background-color: #242b5f;
+    border: 1px solid #3170b5;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 123);
+}
+
 /* ------------------------------------------------------------------ */
 
 #BOOK {

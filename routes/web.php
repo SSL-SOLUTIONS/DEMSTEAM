@@ -29,8 +29,9 @@ Route::get('/industries/luxury-communities/seo-services/', [HomeController::clas
 Route::get('/industries/franchise/seo-services/', [HomeController::class, 'franchise'])->name('franchise');
 Route::get('/industries/ecommerce/seo-services/', [HomeController::class, 'ecommerce'])->name('ecommerce');
 Route::get('/industries/crypto/seo-services/', [HomeController::class, 'crypto'])->name('crypto');
-Route::get('/industries/assisted-living/seo-services/', [HomeController::class, 'assisted_living'])->name('assisted-living');
+Route::get('/industries/assisted-living-seo-services/', [HomeController::class, 'assisted_living'])->name('assisted-living');
 Route::get('/about-us/', [HomeController::class, 'about'])->name('about');
 Route::get('/awards/', [HomeController::class, 'awards'])->name('awards');
 Route::get('/events/', [HomeController::class, 'events'])->name('events');
 Route::get('/other/', [HomeController::class, 'other'])->name('other');
+Route::get('/blog/', [HomeController::class, 'blog'])->name('blog');
